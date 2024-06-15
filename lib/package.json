@@ -1,14 +1,32 @@
 {
-  "name": "lib",
+  "name": "@imrandil/aws-s3-stream-uploader",
   "version": "1.0.0",
-  "description": "",
+ "description": "A package to upload data streams to AWS S3 and generate signed URLs.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "keywords": [
+   "s3",
+   "AWS",
+   "upload",
+   "signed URL",
+    "stream"
+  ],
+  "author": "Ali Imran Adil",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IMRANDIL/excel_to_s3_streaming_npm_package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IMRANDIL/excel_to_s3_streaming_npm_package/issues"
+  },
+  "homepage": "https://github.com/IMRANDIL/excel_to_s3_streaming_npm_package",
   "dependencies": {
     "@aws-sdk/client-s3": "3.598.0",
     "@aws-sdk/lib-storage": "3.598.0",

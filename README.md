@@ -7,7 +7,7 @@ This package provides a convenient way to upload data streams, such as files, to
 You can install this package via npm:
 
 ```bash
-npm install aws-s3-stream-uploader
+npm install @imrandil/aws-s3-stream-uploader
 ```
 
 ### Usage
@@ -15,7 +15,7 @@ To use this package, follow these simple steps:
 
 1. **Import the package**:
 ```javascript
-const { uploadStreamToS3, getObjectURL, getURLAfterUploadToS3 } = require('aws-s3-stream-uploader');
+const { uploadStreamToS3, getObjectURL, getURLAfterUploadToS3 } = require('@imrandil/aws-s3-stream-uploader');
 ```
 
 2. **Configure your AWS S3 credentials**:
