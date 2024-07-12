@@ -42,7 +42,7 @@ const testExcelToS3 = async () => {
 
         // Define S3 key
         const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
-        const excelDirData = 'Fatca';
+        const excelDirData = 'AIA';
         const key = `${excelDirData}/excel-${uniqueSuffix}.xlsx`;
 
         // Stream to S3
