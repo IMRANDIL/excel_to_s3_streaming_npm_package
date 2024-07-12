@@ -5,8 +5,8 @@ const { PassThrough } = require('stream');
 const s3Config = {
     region: 'ap-south-1',
     credentials: {
-        accessKeyId: 'AKIAQ3EGPDBCU35ORWO6',
-        secretAccessKey: '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'
+        accessKeyId: '',
+        secretAccessKey: ''
     }
 }
 
